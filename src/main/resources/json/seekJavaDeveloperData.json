@@ -1,0 +1,2140 @@
+{
+  "data": [
+    {
+      "advertiser": {
+        "id": "36981511",
+        "description": "Beyond Recruitment - NZ’s best career opportunities – jobs all over Aotearoa"
+      },
+      "area": "Wellington Central",
+      "areaId": 2831,
+      "areaWhereValue": "Wellington Central Wellington",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "864f5b0e-9f96-4308-bb23-1a6e47758bdc.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/864f5b0e-9f96-4308-bb23-1a6e47758bdc.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/864f5b0e-9f96-4308-bb23-1a6e47758bdc.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "6-month contract",
+        "Wellington Based – Hybrid working",
+        "Work with cutting-edge technology"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "Beyond Recruitment",
+      "companyProfileStructuredDataId": 11954,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "1d ago",
+      "location": "Wellington",
+      "locationId": 1019,
+      "locationWhereValue": "All Wellington",
+      "id": 77205165,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Wellington Central, Wellington",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Wellington CBD Wellington"
+          },
+          {
+            "contextualName": "All Wellington"
+          }
+        ]
+      },
+      "listingDate": "2024-07-11T04:32:12Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "java-developer",
+      "salary": "Up $112.50ph + GST depending on experience.",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77205165",
+        "section": "MAIN",
+        "sectionRank": 1,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Wellington Central",
+      "suburbId": 32683,
+      "suburbWhereValue": "Wellington CBD Wellington",
+      "teaser": "1.\tWork in all aspects of software development including writing unit and integration tests",
+      "title": "Senior Java Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMSIKfQ==",
+      "workType": "Contract/Temp",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "23227451",
+        "description": "Tenzing Ltd"
+      },
+      "area": "Auckland Central",
+      "areaId": 5118,
+      "areaWhereValue": "Auckland Central Auckland",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "47f76d50-0f0f-33ef-6f45-10e5f3fb0685.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/47f76d50-0f0f-33ef-6f45-10e5f3fb0685.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/47f76d50-0f0f-33ef-6f45-10e5f3fb0685.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Flexible and hybrid working across our offices, client sites and home hubs",
+        "Interesting clients and projects",
+        "Competitive salary and attractive benefits package"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "Tenzing Limited",
+      "companyProfileStructuredDataId": 18913,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "2d ago",
+      "location": "Auckland",
+      "locationId": 1018,
+      "locationWhereValue": "All Auckland",
+      "id": 77142142,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Auckland CBD, Auckland",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Auckland CBD Auckland"
+          },
+          {
+            "contextualName": "All Auckland"
+          }
+        ]
+      },
+      "listingDate": "2024-07-09T05:37:04Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "full-stack-java-developer",
+      "salary": "",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77142142",
+        "section": "MAIN",
+        "sectionRank": 2,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Auckland CBD",
+      "suburbId": 30010,
+      "suburbWhereValue": "Auckland CBD Auckland",
+      "teaser": "Tenzing is on the lookout for a Full Stack Java Developer based in Auckland to join our diverse team.",
+      "title": "Full Stack Java Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMiIKfQ==",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "44961038",
+        "description": "Absolute IT Limited"
+      },
+      "automaticInclusion": false,
+      "branding": {
+        "id": "c572bd85-17ed-a5c6-2379-3d99ebeb65b1.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/c572bd85-17ed-a5c6-2379-3d99ebeb65b1.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/c572bd85-17ed-a5c6-2379-3d99ebeb65b1.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "6 month contract",
+        "Competitive rate",
+        "Public sector"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "Absolute IT",
+      "companyProfileStructuredDataId": 346235,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "22h ago",
+      "location": "Wellington",
+      "locationId": 1019,
+      "locationWhereValue": "All Wellington",
+      "id": 77208011,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Wellington",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "All Wellington"
+          }
+        ]
+      },
+      "listingDate": "2024-07-11T06:04:05Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "java-developer",
+      "salary": "",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77208011",
+        "section": "MAIN",
+        "sectionRank": 3,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "teaser": "Seeking a Senior Java Developer to build secure, enterprise-level software in a collaborative team.",
+      "title": "Senior Java Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMyIKfQ==",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "9832831",
+        "description": "GBL – Part of the Salt Group"
+      },
+      "area": "Wellington Central",
+      "areaId": 2831,
+      "areaWhereValue": "Wellington Central Wellington",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "c1ebe2df-09fd-488d-a4ec-5cdeb3d76c83.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/c1ebe2df-09fd-488d-a4ec-5cdeb3d76c83.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/c1ebe2df-09fd-488d-a4ec-5cdeb3d76c83.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "GBL - Part of the Salt Group",
+      "companyProfileStructuredDataId": 346952,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "23h ago",
+      "location": "Wellington",
+      "locationId": 1019,
+      "locationWhereValue": "All Wellington",
+      "id": 77206188,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Wellington Central, Wellington",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Wellington CBD Wellington"
+          },
+          {
+            "contextualName": "All Wellington"
+          }
+        ]
+      },
+      "listingDate": "2024-07-11T05:08:52Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "java-developer",
+      "salary": "",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77206188",
+        "section": "MAIN",
+        "sectionRank": 4,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Wellington Central",
+      "suburbId": 32683,
+      "suburbWhereValue": "Wellington CBD Wellington",
+      "teaser": "Looking for an experience Java Developer on initial 6-month hourly rate. This will be Wellington based role.",
+      "title": "Java Developer - Hourly contract",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfNCIKfQ==",
+      "workType": "Contract/Temp",
+      "workArrangements": {
+        "data": []
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "27592276",
+        "description": "Forte Recruitment Ltd"
+      },
+      "area": "Porirua & Kapiti Coast",
+      "areaId": 5108,
+      "areaWhereValue": "Porirua & Kapiti Coast Wellington",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "655cc265-af13-785c-2180-95c510b80f18.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/655cc265-af13-785c-2180-95c510b80f18.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/655cc265-af13-785c-2180-95c510b80f18.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Most desirable: microservices, Kubernetes, Springboot, Openshift, Wicket, React",
+        "Join a dynamic, agile development team delivering a critical investigative tool",
+        "6-month contract - provide your market hourly rate + full-time remote possible"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "Forte Recruitment",
+      "companyProfileStructuredDataId": 350089,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "1d ago",
+      "location": "Wellington",
+      "locationId": 1019,
+      "locationWhereValue": "All Wellington",
+      "id": 77204394,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Porirua, Wellington",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Porirua Wellington"
+          },
+          {
+            "contextualName": "All Wellington"
+          }
+        ]
+      },
+      "listingDate": "2024-07-11T04:09:00Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "java-developer",
+      "salary": "Full-time remote working within NZ is available.",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77204394",
+        "section": "MAIN",
+        "sectionRank": 5,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Porirua",
+      "suburbId": 32626,
+      "suburbWhereValue": "Porirua Wellington",
+      "teaser": "Seeking an experienced Java Developer to enhance and support a critical investigative tool in an agile, collaborative environment + full-time remote.",
+      "title": "Java Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfNSIKfQ==",
+      "workType": "Contract/Temp",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "3",
+            "label": {
+              "text": "Remote"
+            }
+          }
+        ],
+        "displayText": "Remote"
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "41463660",
+        "description": "Enterprise Technology Recruitment Ltd"
+      },
+      "area": "Auckland Central",
+      "areaId": 5118,
+      "areaWhereValue": "Auckland Central Auckland",
+      "automaticInclusion": false,
+      "bulletPoints": [],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "Enterprise Technology Recruitment",
+      "companyProfileStructuredDataId": 407685,
+      "displayType": "standard",
+      "listingDateDisplay": "16d ago",
+      "location": "Auckland",
+      "locationId": 1018,
+      "locationWhereValue": "All Auckland",
+      "id": 76827032,
+      "isPremium": false,
+      "isStandOut": false,
+      "jobLocation": {
+        "label": "Auckland CBD, Auckland",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Auckland CBD Auckland"
+          },
+          {
+            "contextualName": "All Auckland"
+          }
+        ]
+      },
+      "listingDate": "2024-06-25T23:37:36Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "java-developer",
+      "salary": "$130,000 – $140,000 per year",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "76827032",
+        "section": "MAIN",
+        "sectionRank": 6,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Auckland CBD",
+      "suburbId": 30010,
+      "suburbWhereValue": "Auckland CBD Auckland",
+      "teaser": "Join a bright and motivated team of engineers working on an exciting new product. ",
+      "title": "Java Developer / CBD / $140k neg",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfNiIKfQ==",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "20570728",
+        "description": "New Zealand Customs Service"
+      },
+      "area": "Wellington Central",
+      "areaId": 2831,
+      "areaWhereValue": "Wellington Central Wellington",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "ebdaf517-1a9e-4ef7-9645-bbafd09daa1f.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/ebdaf517-1a9e-4ef7-9645-bbafd09daa1f.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/ebdaf517-1a9e-4ef7-9645-bbafd09daa1f.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Be hands on and make a real difference in the Software Developer space!",
+        "Flexible working, competitive salary, career growth opportunities",
+        "Wellington based, permanent role, in-house gym onsite!"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "New Zealand Customs Service",
+      "companyProfileStructuredDataId": 3501,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "6h ago",
+      "location": "Wellington",
+      "locationId": 1019,
+      "locationWhereValue": "All Wellington",
+      "id": 77230664,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Wellington Central, Wellington",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Wellington CBD Wellington"
+          },
+          {
+            "contextualName": "All Wellington"
+          }
+        ]
+      },
+      "listingDate": "2024-07-11T22:13:15Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "full-stack-developer",
+      "salary": "Flexible working + 3 extra Customs leave days",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77230664",
+        "section": "MAIN",
+        "sectionRank": 7,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Wellington Central",
+      "suburbId": 32683,
+      "suburbWhereValue": "Wellington CBD Wellington",
+      "teaser": "Have you a passion for crafting and supporting resilient, adaptable systems in an evolving operating environment? Come join the NZTD team at Customs!",
+      "title": "Full Stack Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfNyIKfQ==",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "25383993",
+        "description": "Vector"
+      },
+      "area": "Auckland Central",
+      "areaId": 5118,
+      "areaWhereValue": "Auckland Central Auckland",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "2fb6ffa5-55ee-4943-9373-8faa1a6d6833.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/2fb6ffa5-55ee-4943-9373-8faa1a6d6833.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/2fb6ffa5-55ee-4943-9373-8faa1a6d6833.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Competitive salary + free insurances + wellbeing grant + high street discounts",
+        "Work/life balance - WFH 2 days per week + flexible start/end times",
+        "Endless opportunities for career growth and progression"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "Vector",
+      "companyProfileStructuredDataId": 906,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "7d ago",
+      "location": "Auckland",
+      "locationId": 1018,
+      "locationWhereValue": "All Auckland",
+      "id": 77056530,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Auckland CBD, Auckland",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Auckland CBD Auckland"
+          },
+          {
+            "contextualName": "All Auckland"
+          }
+        ]
+      },
+      "listingDate": "2024-07-04T22:05:51Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "software-developer",
+      "salary": "",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77056530",
+        "section": "MAIN",
+        "sectionRank": 8,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Auckland CBD",
+      "suburbId": 30010,
+      "suburbWhereValue": "Auckland CBD Auckland",
+      "teaser": "Bring your dev skills to work on meaningful, complex challenges that look to solve real world problems",
+      "title": "Intermediate Software Developer (back-end)",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfOCIKfQ==",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": []
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "47266966",
+        "description": "HSI APAC PTY LTD"
+      },
+      "area": "Auckland Central",
+      "areaId": 5118,
+      "areaWhereValue": "Auckland Central Auckland",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "dfa1f0b8-f761-4b48-bd0e-911c1e384667.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/dfa1f0b8-f761-4b48-bd0e-911c1e384667.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/dfa1f0b8-f761-4b48-bd0e-911c1e384667.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Super flexible work environment",
+        "Fantastic career progression and perks",
+        "Even better culture"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyProfileStructuredDataId": 0,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "1d ago",
+      "location": "Auckland",
+      "locationId": 1018,
+      "locationWhereValue": "All Auckland",
+      "id": 77205107,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Auckland CBD, Auckland",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Auckland CBD Auckland"
+          },
+          {
+            "contextualName": "All Auckland"
+          }
+        ]
+      },
+      "listingDate": "2024-07-11T04:30:37Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "full-stack-developer",
+      "salary": "$130,000 – $150,000 per year",
+      "searchInsights": {
+        "unmatchedKeywords": [
+          "java"
+        ]
+      },
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77205107",
+        "section": "MAIN",
+        "sectionRank": 9,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Auckland CBD",
+      "suburbId": 30010,
+      "suburbWhereValue": "Auckland CBD Auckland",
+      "teaser": "This fantastic opportunity is not to be missed!",
+      "title": "Full Stack Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfOSIKfQ==",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          },
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "On-site, Hybrid"
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "22436410",
+        "description": "Daifuku Oceania"
+      },
+      "area": "Rodney & North Shore",
+      "areaId": 5121,
+      "areaWhereValue": "Rodney & North Shore Auckland",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "69517ffd-5f2e-4ce7-8b04-a34bf3b2e9c1.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/69517ffd-5f2e-4ce7-8b04-a34bf3b2e9c1.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/69517ffd-5f2e-4ce7-8b04-a34bf3b2e9c1.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Chance to join a large ISO9001 certified software team",
+        "Employee Wellness Program",
+        "Growth industry"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "Daifuku BCS",
+      "companyProfileStructuredDataId": 5160,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "2d ago",
+      "location": "Auckland",
+      "locationId": 1018,
+      "locationWhereValue": "All Auckland",
+      "id": 77173125,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Albany, Auckland",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Albany Auckland"
+          },
+          {
+            "contextualName": "All Auckland"
+          }
+        ]
+      },
+      "listingDate": "2024-07-10T04:42:04Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "software-developer",
+      "salary": "",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77173125",
+        "section": "MAIN",
+        "sectionRank": 10,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Albany",
+      "suburbId": 30000,
+      "suburbWhereValue": "Albany Auckland",
+      "teaser": "Assist with software deployment and configuration related to project delivery.",
+      "title": "Software Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMTAiCn0=",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "61546689",
+        "description": "PaySauce"
+      },
+      "area": "Hutt Valley",
+      "areaId": 5107,
+      "areaWhereValue": "Hutt Valley Wellington",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "9e2ae15a-ea6f-4531-9311-6c0a6c6897df.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/9e2ae15a-ea6f-4531-9311-6c0a6c6897df.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/9e2ae15a-ea6f-4531-9311-6c0a6c6897df.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Small company, but growing",
+        "Be rewarded with shares as part of your remuneration",
+        "Petone based, so no more commuting into the CBD!"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyProfileStructuredDataId": 0,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "2d ago",
+      "location": "Wellington",
+      "locationId": 1019,
+      "locationWhereValue": "All Wellington",
+      "id": 77172010,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Lower Hutt, Wellington",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Lower Hutt Wellington"
+          },
+          {
+            "contextualName": "All Wellington"
+          }
+        ]
+      },
+      "listingDate": "2024-07-10T04:02:47Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "developer",
+      "salary": "",
+      "searchInsights": {
+        "unmatchedKeywords": [
+          "java"
+        ]
+      },
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77172010",
+        "section": "MAIN",
+        "sectionRank": 11,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Lower Hutt",
+      "suburbId": 32559,
+      "suburbWhereValue": "Lower Hutt Wellington",
+      "teaser": "A chance for a curious and experienced Developer to join a growing company and design, support and grow our software applications",
+      "title": "Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMTEiCn0=",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": []
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "24084597",
+        "description": "EROAD Limited"
+      },
+      "area": "Rodney & North Shore",
+      "areaId": 5121,
+      "areaWhereValue": "Rodney & North Shore Auckland",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "7c2789be-ea90-0010-6d07-baf5722ca02f.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/7c2789be-ea90-0010-6d07-baf5722ca02f.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/7c2789be-ea90-0010-6d07-baf5722ca02f.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Are you ready to elevate your career to new heights?",
+        "Joining our team means joining a company at the forefront of IoT and SaaS",
+        "Excellent Hybrid WFH model"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "EROAD",
+      "companyProfileStructuredDataId": 19921,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "23d ago",
+      "location": "Auckland",
+      "locationId": 1018,
+      "locationWhereValue": "All Auckland",
+      "id": 76677954,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Albany, Auckland",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Albany Auckland"
+          },
+          {
+            "contextualName": "All Auckland"
+          }
+        ]
+      },
+      "listingDate": "2024-06-19T04:42:23Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "back-end-java-developer",
+      "salary": "",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "76677954",
+        "section": "MAIN",
+        "sectionRank": 12,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Albany",
+      "suburbId": 30000,
+      "suburbWhereValue": "Albany Auckland",
+      "tags": [
+        {
+          "type": "EXPIRES_SOON",
+          "label": "Expiring soon"
+        }
+      ],
+      "teaser": "Are you ready to be a key player in an agile team, pushing the limits of traditional SaaS with cutting-edge design and development?",
+      "title": "Backend Intermediate Java Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMTIiCn0=",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": []
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "33901227",
+        "description": "Crew Technology Recruitment"
+      },
+      "area": "Christchurch",
+      "areaId": 5114,
+      "areaWhereValue": "Christchurch Canterbury",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "7743ef6c-c304-4e6d-8ed2-f31641879290.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/7743ef6c-c304-4e6d-8ed2-f31641879290.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/7743ef6c-c304-4e6d-8ed2-f31641879290.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Salary + tools of the trade + medical insurance",
+        "Growth and learning & development opportunities",
+        "Supportive and fun team who are social and"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "Crew Technology Recruitment",
+      "companyProfileStructuredDataId": 633106,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "3d ago",
+      "location": "Canterbury",
+      "locationId": 5113,
+      "locationWhereValue": "All Canterbury",
+      "id": 77133555,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Christchurch, Canterbury",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Christchurch Canterbury"
+          },
+          {
+            "contextualName": "All Canterbury"
+          }
+        ]
+      },
+      "listingDate": "2024-07-09T01:29:08Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "software-developer",
+      "salary": "Competitive, market-based salary",
+      "searchInsights": {
+        "unmatchedKeywords": [
+          "java"
+        ]
+      },
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77133555",
+        "section": "MAIN",
+        "sectionRank": 13,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6290",
+        "description": "Engineering - Software"
+      },
+      "teaser": "Build critical internal and external solutions for this successful Kiwi-owned technology company as part of a tightknit team, with great benefits.",
+      "title": "Software Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMTMiCn0=",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          },
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          },
+          {
+            "id": "3",
+            "label": {
+              "text": "Remote"
+            }
+          }
+        ],
+        "displayText": "On-site, Hybrid, Remote"
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "44577547",
+        "description": "Projectworks"
+      },
+      "area": "Wellington Central",
+      "areaId": 2831,
+      "areaWhereValue": "Wellington Central Wellington",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "297a6c75-9e57-fc0b-7418-d66d32355f02.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/297a6c75-9e57-fc0b-7418-d66d32355f02.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/297a6c75-9e57-fc0b-7418-d66d32355f02.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Fast growing software company",
+        "Competitive salary with health insurance and contribution to mobile phone plan",
+        "Supportive team environment and great onboarding process"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "Projectworks",
+      "companyProfileStructuredDataId": 693081,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "23h ago",
+      "location": "Wellington",
+      "locationId": 1019,
+      "locationWhereValue": "All Wellington",
+      "id": 77207251,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Wellington Central, Wellington",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Wellington CBD Wellington"
+          },
+          {
+            "contextualName": "All Wellington"
+          }
+        ]
+      },
+      "listingDate": "2024-07-11T05:47:38Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "developer",
+      "salary": "",
+      "searchInsights": {
+        "unmatchedKeywords": [
+          "java"
+        ]
+      },
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77207251",
+        "section": "MAIN",
+        "sectionRank": 14,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Wellington Central",
+      "suburbId": 32683,
+      "suburbWhereValue": "Wellington CBD Wellington",
+      "teaser": "A great opportunity to join a fast growing software company to push the boundaries of what's possible in SaaS development.",
+      "title": "Senior Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMTQiCn0=",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": []
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "26365185",
+        "description": "Unicef"
+      },
+      "area": "Wellington Central",
+      "areaId": 2831,
+      "areaWhereValue": "Wellington Central Wellington",
+      "automaticInclusion": false,
+      "bulletPoints": [],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "UNICEF",
+      "companyProfileStructuredDataId": 397135,
+      "displayType": "standard",
+      "listingDateDisplay": "3d ago",
+      "location": "Wellington",
+      "locationId": 1019,
+      "locationWhereValue": "All Wellington",
+      "id": 77129292,
+      "isPremium": false,
+      "isStandOut": false,
+      "jobLocation": {
+        "label": "Wellington Central, Wellington",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Wellington CBD Wellington"
+          },
+          {
+            "contextualName": "All Wellington"
+          }
+        ]
+      },
+      "listingDate": "2024-07-08T21:46:04Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "full-stack-developer",
+      "salary": "$90,000 – $110,000 per year",
+      "searchInsights": {
+        "unmatchedKeywords": [
+          "java"
+        ]
+      },
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77129292",
+        "section": "MAIN",
+        "sectionRank": 15,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Wellington Central",
+      "suburbId": 32683,
+      "suburbWhereValue": "Wellington CBD Wellington",
+      "teaser": "As a Developer, you will create, improve and maintain our world-class digital ecosystem, with a focus on our website, CRM system and payment platform.",
+      "title": "Full Stack Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMTUiCn0=",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          },
+          {
+            "id": "3",
+            "label": {
+              "text": "Remote"
+            }
+          }
+        ],
+        "displayText": "On-site, Remote"
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "54833445",
+        "description": "AMP Services (NZ) Ltd"
+      },
+      "area": "Auckland Central",
+      "areaId": 5118,
+      "areaWhereValue": "Auckland Central Auckland",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "ba588497-0aa6-47f5-be9a-a4e7dd67bdd1.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/ba588497-0aa6-47f5-be9a-a4e7dd67bdd1.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/ba588497-0aa6-47f5-be9a-a4e7dd67bdd1.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Opportunities for professional development and career progression.",
+        "Flexible working hours and remote work options.",
+        "Supportive and collaborative team culture."
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "AMP",
+      "companyProfileStructuredDataId": 5059,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "6h ago",
+      "location": "Auckland",
+      "locationId": 1018,
+      "locationWhereValue": "All Auckland",
+      "id": 77230529,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Auckland CBD, Auckland",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Auckland CBD Auckland"
+          },
+          {
+            "contextualName": "All Auckland"
+          }
+        ]
+      },
+      "listingDate": "2024-07-11T21:51:41Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "full-stack-developer",
+      "salary": "Base + 6% superannuation + benefits + insurances",
+      "searchInsights": {
+        "unmatchedKeywords": [
+          "java"
+        ]
+      },
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77230529",
+        "section": "MAIN",
+        "sectionRank": 16,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Auckland CBD",
+      "suburbId": 30010,
+      "suburbWhereValue": "Auckland CBD Auckland",
+      "teaser": "We are looking for a passionate Full Stack Developer to join our Digital Software team to build great customer experiences in our digital channels!",
+      "title": "Full Stack Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMTYiCn0=",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "7303192",
+        "description": "TVNZ"
+      },
+      "area": "Auckland Central",
+      "areaId": 5118,
+      "areaWhereValue": "Auckland Central Auckland",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "0382f01e-84f5-66a5-f945-90773d6cd212.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/0382f01e-84f5-66a5-f945-90773d6cd212.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/0382f01e-84f5-66a5-f945-90773d6cd212.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Hybrid working model, flexibility in the working environment",
+        "Role with plenty of scope to grow and develop",
+        "Join one of New Zealand's best known and most well-loved media/news businesses."
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "TVNZ",
+      "companyProfileStructuredDataId": 132,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "3d ago",
+      "location": "Auckland",
+      "locationId": 1018,
+      "locationWhereValue": "All Auckland",
+      "id": 77134905,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Auckland CBD, Auckland",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Auckland CBD Auckland"
+          },
+          {
+            "contextualName": "All Auckland"
+          }
+        ]
+      },
+      "listingDate": "2024-07-09T02:10:48Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "software-engineer",
+      "salary": "Base Salary + Mobile/Broadband Allowance",
+      "searchInsights": {
+        "unmatchedKeywords": [
+          "developer"
+        ]
+      },
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77134905",
+        "section": "MAIN",
+        "sectionRank": 17,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6290",
+        "description": "Engineering - Software"
+      },
+      "suburb": "Auckland CBD",
+      "suburbId": 30010,
+      "suburbWhereValue": "Auckland CBD Auckland",
+      "teaser": "You will deliver and implement technical solutions utilising your skills in the application API space.",
+      "title": "Senior Software Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMTciCn0=",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "25388888",
+        "description": "Starfish Consulting"
+      },
+      "area": "Wellington Central",
+      "areaId": 2831,
+      "areaWhereValue": "Wellington Central Wellington",
+      "automaticInclusion": false,
+      "bulletPoints": [],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "Starfish Consulting",
+      "companyProfileStructuredDataId": 350163,
+      "displayType": "standard",
+      "listingDateDisplay": "3d ago",
+      "location": "Wellington",
+      "locationId": 1019,
+      "locationWhereValue": "All Wellington",
+      "id": 77129660,
+      "isPremium": false,
+      "isStandOut": false,
+      "jobLocation": {
+        "label": "Wellington Central, Wellington",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Wellington CBD Wellington"
+          },
+          {
+            "contextualName": "All Wellington"
+          }
+        ]
+      },
+      "listingDate": "2024-07-08T22:42:10Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "developer",
+      "salary": "$130,000 - $140,000",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77129660",
+        "section": "MAIN",
+        "sectionRank": 18,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Wellington Central",
+      "suburbId": 32683,
+      "suburbWhereValue": "Wellington CBD Wellington",
+      "teaser": "Seeing an expert Developer with experience in React, Typescript, Spring Boot and Java! Competitive salary and benefits included!",
+      "title": "Senior Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMTgiCn0=",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "2880469",
+        "description": "Datacom"
+      },
+      "area": "Auckland Central",
+      "areaId": 5118,
+      "areaWhereValue": "Auckland Central Auckland",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "c6c5b531-cc3a-4462-bd40-fb7851f7e7a4.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/c6c5b531-cc3a-4462-bd40-fb7851f7e7a4.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/c6c5b531-cc3a-4462-bd40-fb7851f7e7a4.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Start ASAP",
+        "Focus on Spring / Java",
+        "Be THE Tech Lead!"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "Datacom",
+      "companyProfileStructuredDataId": 4533,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "2d ago",
+      "location": "Auckland",
+      "locationId": 1018,
+      "locationWhereValue": "All Auckland",
+      "id": 77150989,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Auckland CBD, Auckland",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Auckland CBD Auckland"
+          },
+          {
+            "contextualName": "All Auckland"
+          }
+        ]
+      },
+      "listingDate": "2024-07-09T07:54:58Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "technical-lead",
+      "salary": "",
+      "searchInsights": {
+        "unmatchedKeywords": [
+          "developer"
+        ]
+      },
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "77150989",
+        "section": "MAIN",
+        "sectionRank": 19,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Auckland CBD",
+      "suburbId": 30010,
+      "suburbWhereValue": "Auckland CBD Auckland",
+      "teaser": "We are looking for a Contract Java Tech Lead with Spring Boot skills to start a long term contract opportunity starting immediately.",
+      "title": "Java/Spring Boot - Tech Lead - Contract",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMTkiCn0=",
+      "workType": "Contract/Temp",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "400647700",
+        "description": "Kakariki Technology Ltd"
+      },
+      "area": "Manukau & East Auckland",
+      "areaId": 5119,
+      "areaWhereValue": "Manukau & East Auckland Auckland",
+      "automaticInclusion": false,
+      "branding": {
+        "id": "d5c9d43d-34a7-4646-95ff-7a941dcaa8f8.1",
+        "assets": {
+          "logo": {
+            "strategies": {
+              "jdpLogo": "https://bx-branding-gateway.cloud.seek.com.au/d5c9d43d-34a7-4646-95ff-7a941dcaa8f8.1/jdpLogo",
+              "serpLogo": "https://bx-branding-gateway.cloud.seek.com.au/d5c9d43d-34a7-4646-95ff-7a941dcaa8f8.1/serpLogo"
+            }
+          }
+        }
+      },
+      "bulletPoints": [
+        "Be part of an exciting development team",
+        "Variety of interesting projects",
+        "Work from home available"
+      ],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyProfileStructuredDataId": 0,
+      "displayStyle": {
+        "search": "A"
+      },
+      "displayType": "standout",
+      "listingDateDisplay": "11d ago",
+      "location": "Auckland",
+      "locationId": 1018,
+      "locationWhereValue": "All Auckland",
+      "id": 76941825,
+      "isPremium": false,
+      "isStandOut": true,
+      "jobLocation": {
+        "label": "Manukau, Auckland",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Manukau Auckland"
+          },
+          {
+            "contextualName": "All Auckland"
+          }
+        ]
+      },
+      "listingDate": "2024-07-01T01:09:59Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "full-stack-developer",
+      "salary": "$120,000 - $149,999",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "76941825",
+        "section": "MAIN",
+        "sectionRank": 20,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Manukau",
+      "suburbId": 30117,
+      "suburbWhereValue": "Manukau Auckland",
+      "teaser": "An exciting and varied role building world class warehouse management software.",
+      "title": "Full Stack Software Developer",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMjAiCn0=",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": []
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "41463660",
+        "description": "Enterprise Technology Recruitment Ltd"
+      },
+      "automaticInclusion": false,
+      "bulletPoints": [],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "Enterprise Technology Recruitment",
+      "companyProfileStructuredDataId": 407685,
+      "displayType": "standard",
+      "listingDateDisplay": "28d ago",
+      "location": "Auckland",
+      "locationId": 1018,
+      "locationWhereValue": "All Auckland",
+      "id": 76573543,
+      "isPremium": false,
+      "isStandOut": false,
+      "jobLocation": {
+        "label": "Auckland",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "All Auckland"
+          }
+        ]
+      },
+      "listingDate": "2024-06-13T21:19:37Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "c-developer_4",
+      "salary": "$130,000 – $140,000 per year",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "76573543",
+        "section": "MAIN",
+        "sectionRank": 21,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "tags": [
+        {
+          "type": "EXPIRES_SOON",
+          "label": "Expiring soon"
+        }
+      ],
+      "teaser": "Join a great Kiwi company helping to save the environment",
+      "title": "Java or C Developer / Save the planet / Full remote option / $140k neg",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMjEiCn0=",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "3",
+            "label": {
+              "text": "Remote"
+            }
+          }
+        ],
+        "displayText": "Remote"
+      },
+      "isPrivateAdvertiser": false
+    },
+    {
+      "advertiser": {
+        "id": "41463660",
+        "description": "Enterprise Technology Recruitment Ltd"
+      },
+      "area": "Auckland Central",
+      "areaId": 5118,
+      "areaWhereValue": "Auckland Central Auckland",
+      "automaticInclusion": false,
+      "bulletPoints": [],
+      "classification": {
+        "id": "6281",
+        "description": "Information & Communication Technology"
+      },
+      "companyName": "Enterprise Technology Recruitment",
+      "companyProfileStructuredDataId": 407685,
+      "displayType": "standard",
+      "listingDateDisplay": "28d ago",
+      "location": "Auckland",
+      "locationId": 1018,
+      "locationWhereValue": "All Auckland",
+      "id": 76564087,
+      "isPremium": false,
+      "isStandOut": false,
+      "jobLocation": {
+        "label": "Auckland CBD, Auckland",
+        "countryCode": "NZ",
+        "seoHierarchy": [
+          {
+            "contextualName": "Auckland CBD Auckland"
+          },
+          {
+            "contextualName": "All Auckland"
+          }
+        ]
+      },
+      "listingDate": "2024-06-13T05:17:36Z",
+      "logo": {
+        "id": "",
+        "description": null
+      },
+      "roleId": "java-developer",
+      "salary": "$120,000 – $140,000 per year",
+      "solMetadata": {
+        "searchRequestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+        "jobId": "76564087",
+        "section": "MAIN",
+        "sectionRank": 22,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_344",
+          "mordor__s": "0"
+        }
+      },
+      "subClassification": {
+        "id": "6287",
+        "description": "Developers/Programmers"
+      },
+      "suburb": "Auckland CBD",
+      "suburbId": 30010,
+      "suburbWhereValue": "Auckland CBD Auckland",
+      "tags": [
+        {
+          "type": "EXPIRES_SOON",
+          "label": "Expiring soon"
+        }
+      ],
+      "teaser": "Join a bright and motivated team of engineers working on an exciting new product. ",
+      "title": "Grad Java Developer / CBD / $140k neg",
+      "tracking": "ewogICJ0b2tlbiI6ICIwZGNmYjVmMy1hNmZlLTQ5YTAtOWE4Yy04YmE0YTdkNzkzNTBfMjIiCn0=",
+      "workType": "Full time",
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      },
+      "isPrivateAdvertiser": false
+    }
+  ],
+  "title": "Java Developer Jobs in All New Zealand",
+  "totalCount": 231,
+  "totalPages": 11,
+  "paginationParameters": {
+    "seekSelectAllPages": true,
+    "hadPremiumListings": false
+  },
+  "info": {
+    "timeTaken": 12,
+    "source": "JobSearch-sm",
+    "experiment": "mordor_344"
+  },
+  "userQueryId": "b15184506175c5b8a217b4448b5deee7-8804892",
+  "sortMode": [
+    {
+      "isActive": true,
+      "name": "Relevance",
+      "value": "KeywordRelevance"
+    },
+    {
+      "isActive": false,
+      "name": "Date",
+      "value": "ListedDate"
+    }
+  ],
+  "solMetadata": {
+    "requestToken": "fd17413c-77c4-4e0d-b853-e7c549332c81",
+    "token": "0~fd17413c-77c4-4e0d-b853-e7c549332c81",
+    "keywords": "Java Developer",
+    "sortMode": "RELEVANCE",
+    "locations": [
+      "All New Zealand",
+      "seek-3001"
+    ],
+    "locationDistance": 50,
+    "pageSize": 22,
+    "pageNumber": 1,
+    "totalJobCount": 231,
+    "tags": {
+      "mordor:searchMarket": "UNIFIED_NZ",
+      "mordor:result_count_rst": "209",
+      "mordor:result_count_vec": "0",
+      "mordor:rt": "3",
+      "mordor_vs": "7",
+      "mordor:count_vec": "0",
+      "mordor__flights": "mordor_344",
+      "mordor:count_rst": "209",
+      "mordor:count_ir": "22",
+      "mordor:result_count_ir": "22",
+      "chalice-search-api:solId": "c38f2f6d-8858-4ecd-bfdf-0f602173be98"
+    }
+  },
+  "location": {
+    "areaDescription": "",
+    "areaId": 0,
+    "description": "All New Zealand",
+    "locationDescription": "",
+    "locationId": 3001,
+    "matched": true,
+    "stateDescription": "",
+    "suburbParentDescription": "",
+    "type": "Country",
+    "whereId": 3001,
+    "descriptions": {
+      "en": {
+        "contextualName": "All New Zealand"
+      },
+      "id": {
+        "contextualName": "Selandia Baru"
+      },
+      "th": {
+        "contextualName": "นิวซีแลนด์"
+      }
+    },
+    "shortLocationName": "New Zealand"
+  },
+  "facets": {
+
+  },
+  "joraCrossLink": {
+    "canCrossLink": false
+  },
+  "searchParams": {
+    "sitekey": "NZ-Main",
+    "sourcesystem": "houston",
+    "userqueryid": "b15184506175c5b8a217b4448b5deee7-8804892",
+    "userid": "8c5c5075-bace-4dbb-8bf0-3b9adde8121c",
+    "usersessionid": "8c5c5075-bace-4dbb-8bf0-3b9adde8121c",
+    "eventcapturesessionid": "8c5c5075-bace-4dbb-8bf0-3b9adde8121c",
+    "where": "All New Zealand",
+    "page": "1",
+    "seekselectallpages": "true",
+    "keywords": "Java Developer",
+    "include": "seodata",
+    "locale": "en-NZ",
+    "solid": "c38f2f6d-8858-4ecd-bfdf-0f602173be98"
+  }
+}
