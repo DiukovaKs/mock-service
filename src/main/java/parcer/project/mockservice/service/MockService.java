@@ -27,13 +27,14 @@ public class MockService {
             int randomValue = RANDOM.nextInt(MAX - MIN) + MIN; //random value from MIN to MAX
 
             jobDto.setId(Long.parseLong(String.valueOf(i)));
-            jobDto.setTitle(faker.job().position());
+            jobDto.setTitle(faker.job().title());
             jobDto.setDescription(getSkills(randomValue, faker));
             jobDto.setCompany(faker.company().name());
             jobDto.setLocation(faker.address().fullAddress());
             jobDto.setPostedAt(DATE_FORMAT.format(faker.date().past(pastDays, TimeUnit.DAYS)));
 
             jobDto.setWorkType(getWorkType(randomValue));
+            jobDto.setExtra(faker.job().position());
 
             list.add(jobDto);
         }

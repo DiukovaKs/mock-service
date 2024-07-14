@@ -13,4 +13,5 @@ public class JobDto {
     private String location;
     private String workType;
     private String postedAt;
+    private String extra;
 }
