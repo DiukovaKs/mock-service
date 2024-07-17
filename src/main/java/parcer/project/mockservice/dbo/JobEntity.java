@@ -1,14 +1,22 @@
-package parcer.project.mockservice.dto;
+package parcer.project.mockservice.dbo;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.Indexed;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
+import java.util.UUID;
 
+@Document(collection = "jobs")
 @Getter
 @Setter
-public class JobDto {
-    private String id;
+public class JobEntity {
+    @Id
+    private UUID id;
+
+    @Indexed
     private String sourceId;
     private String sourceJobId;
     private String title;
@@ -17,6 +25,7 @@ public class JobDto {
     private String companyId;
     private String location;
     private String workType;
+    @Indexed
     private String postedAt;
     private LocalDateTime collectedAt;
     private String link;

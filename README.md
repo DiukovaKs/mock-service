@@ -4,19 +4,21 @@ The service provides fake data about vacancies for the last N days in the format
 
 [
     {
-        "id": id,
-        "title": "String",
-        "description": "String",
-        "company": "String",
-        "location": "String",
-        "workType": "String",
-        "postedAt": "String (dd-MM-yyyy)"
+        "id": "string",
+        "sourceId": "string",
+        "sourceJobId": "string",
+        "title": "string",
+        "description": "string",
+        "company": "string",
+        "companyId": "string",
+        "location": "string",
+        "workType": "string",
+        "postedAt": "string",
+        "collectedAt": "2024-07-16T08:50:49.080Z",
+        "link": "string",
+        "extra": "string"
     },
 ...
 ]
 
-Example request: localhost:8080/jobs?jobsCount=12&pastDays=2
-
-where 
-    jobsCount - number of vacancies in the response list
-    pastDays - time period used in the generated data
+See endpoints on http://localhost:8080/swagger-ui/index.html
