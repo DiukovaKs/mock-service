@@ -1,0 +1,98 @@
+{
+  "type": "object",
+  "required": [
+    "data",
+    "_links"
+  ],
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/jobs"
+      }
+    },
+    "error": {
+      "type": "object"
+    },
+    "_links": {
+      "type": "object",
+      "required": [
+        "self"
+      ],
+      "properties": {
+        "self": {
+          "type": "object",
+          "required": [
+            "href"
+          ],
+          "properties": {
+            "href": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "jobs": {
+      "type": "object",
+      "required": [
+        "id",
+        "sourceId",
+        "sourceJobId",
+        "title",
+        "description",
+        "company",
+        "companyId",
+        "location",
+        "workType",
+        "postedAt",
+        "collectedAt",
+        "link",
+        "extra"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "sourceId": {
+          "type": "string"
+        },
+        "sourceJobId": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "company": {
+          "type": "string"
+        },
+        "companyId": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "workType": {
+          "type": "string"
+        },
+        "postedAt": {
+          "type": "string"
+        },
+        "collectedAt": {
+          "type": "string"
+        },
+        "link": {
+          "type": "string"
+        },
+        "extra": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

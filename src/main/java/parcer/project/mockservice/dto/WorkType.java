@@ -5,7 +5,7 @@ import lombok.Getter;
 @Getter
 public enum WorkType {
     FULL_TIME("Full time", "Full time"),
-    PART_TIME("Part time", "PArt time"),
+    PART_TIME("Part time", "Part time"),
     CASUAL("Casual", "Casual/Vacation"),
     CONTRACT("Contract", "Contract");
 

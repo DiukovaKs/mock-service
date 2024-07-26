@@ -1,4 +1,4 @@
-package parcer.project.mockservice.dbo;
+package parcer.project.mockservice.dao;
 
 import lombok.Getter;
 import lombok.Setter;

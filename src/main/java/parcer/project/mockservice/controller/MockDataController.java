@@ -1,17 +1,27 @@
 package parcer.project.mockservice.controller;
 
 import lombok.AllArgsConstructor;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import parcer.project.mockservice.dto.ErrorApiDto;
+import parcer.project.mockservice.dto.JobApiDto;
 import parcer.project.mockservice.dto.JobDto;
+import parcer.project.mockservice.dto.JsonApiResponse;
 import parcer.project.mockservice.service.CrudService;
 import parcer.project.mockservice.service.MockService;
 
+import java.util.ArrayList;
+import java.util.InvalidPropertiesFormatException;
 import java.util.List;
+
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @RestController
 @RequestMapping("/mock/jobs")
@@ -20,22 +30,25 @@ public class MockDataController {
     private final MockService mockService;
     private final CrudService crudService;
 
-    @GetMapping(value = "/mock/jobs", produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<JobDto> findAllJobs() {
+    @RequestMapping("")
+    public HttpEntity<JsonApiResponse> getJobs(
+            @RequestParam(value = "filter[date]", required = false) List<String> date,
+            @RequestParam(value = "filter[source]", required = false) List<String> source) {
 
-        return crudService.findAll();
-    }
+        JsonApiResponse response = new JsonApiResponse();
 
-    @GetMapping(value = "/byDate", produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<JobDto> getJobsFilteredByDate(@RequestParam String date) {
+        try {
+            List<JobApiDto> jobs = crudService.getResultByFilteredFields(date, source);
+            response.setData(jobs.stream().map(e -> (Object)e).toList());
+            response.setError(new ErrorApiDto());
+        } catch (InvalidPropertiesFormatException e) {
+            response.setData(new ArrayList<>(0));
+            response.setError(new ErrorApiDto("400", e.getMessage()));
+        }
 
-        return crudService.findByPostedAt(date);
-    }
+        response.add(linkTo(methodOn(MockDataController.class).getJobs(date, source)).withSelfRel());
 
-    @GetMapping(value = "/byDateAndSource", produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<JobDto> getJobsFilteredByDateAndSource(@RequestParam String date,
-                                                       @RequestParam String source) {
-        return crudService.findByPostedAtAndSourceId(date, source);
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
     @GetMapping(value = "/check", produces = MediaType.APPLICATION_JSON_VALUE)
@@ -51,10 +64,4 @@ public class MockDataController {
         //TODO replace after testing!
         return mockService.getFakeData(jobsCount, pastDays);
     }
-
-    @GetMapping(value = "/{source}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<JobDto> getJobsFilteredBySource(@PathVariable String source) {
-        return crudService.findBySourceId(source);
-    }
-
 }

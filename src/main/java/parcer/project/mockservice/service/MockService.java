@@ -30,10 +30,10 @@ public class MockService {
 
     @PostConstruct
     void init() {
-        SOURCE_ID_MAP.put(1, "Seek");
-        SOURCE_ID_MAP.put(2, "Indeed");
-        SOURCE_ID_MAP.put(3, "Asb");
-        SOURCE_ID_MAP.put(4, "Any");
+        SOURCE_ID_MAP.put(1, "seek");
+        SOURCE_ID_MAP.put(2, "indeed");
+        SOURCE_ID_MAP.put(3, "asb");
+        SOURCE_ID_MAP.put(4, "any");
     }
 
     public List<JobDto> getFakeData(int jobsCount, int pastDays) {
