@@ -1,6 +1,7 @@
 package parcer.project.mockservice.controller;
 
 import lombok.AllArgsConstructor;
+import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -29,7 +30,7 @@ public class MockDataController {
     private final CrudService crudService;
 
     @GetMapping(value = "/")
-    public JsonApiResponse getJobs(
+    public HttpEntity<JsonApiResponse> getJobs(
             @RequestParam(value = "filter[date]", required = false) List<String> date,
             @RequestParam(value = "filter[source]", required = false) List<String> source
     ) {
@@ -46,7 +47,7 @@ public class MockDataController {
 
         response.add(linkTo(methodOn(MockDataController.class).getJobs(date, source)).withSelfRel());
 
-        return response;
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
     @GetMapping(value = "/check", produces = MediaType.APPLICATION_JSON_VALUE)
