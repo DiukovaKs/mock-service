@@ -24,7 +24,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 public class MockSourceController {
     private final MockSourceService mockSourceService;
 
-    @GetMapping(value = "", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/", produces = MediaType.APPLICATION_JSON_VALUE)
     public HttpEntity<JsonApiResponse> getSources() {
 
         List<SourceDto> jobs = mockSourceService.getSources();

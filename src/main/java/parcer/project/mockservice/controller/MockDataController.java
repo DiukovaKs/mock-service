@@ -1,18 +1,16 @@
 package parcer.project.mockservice.controller;
 
 import lombok.AllArgsConstructor;
-import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import parcer.project.mockservice.dao.JobEntity;
 import parcer.project.mockservice.dto.ErrorApiDto;
 import parcer.project.mockservice.dto.JobApiDto;
 import parcer.project.mockservice.dto.JobDto;
 import parcer.project.mockservice.dto.JsonApiResponse;
+import parcer.project.mockservice.repository.JobRepository;
 import parcer.project.mockservice.service.CrudService;
 import parcer.project.mockservice.service.MockService;
 
@@ -30,11 +28,11 @@ public class MockDataController {
     private final MockService mockService;
     private final CrudService crudService;
 
-    @RequestMapping("")
-    public HttpEntity<JsonApiResponse> getJobs(
+    @GetMapping(value = "/")
+    public JsonApiResponse getJobs(
             @RequestParam(value = "filter[date]", required = false) List<String> date,
-            @RequestParam(value = "filter[source]", required = false) List<String> source) {
-
+            @RequestParam(value = "filter[source]", required = false) List<String> source
+    ) {
         JsonApiResponse response = new JsonApiResponse();
 
         try {
@@ -48,7 +46,7 @@ public class MockDataController {
 
         response.add(linkTo(methodOn(MockDataController.class).getJobs(date, source)).withSelfRel());
 
-        return new ResponseEntity<>(response, HttpStatus.OK);
+        return response;
     }
 
     @GetMapping(value = "/check", produces = MediaType.APPLICATION_JSON_VALUE)
