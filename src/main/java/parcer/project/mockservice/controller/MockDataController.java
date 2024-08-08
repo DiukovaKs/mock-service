@@ -1,16 +1,12 @@
 package parcer.project.mockservice.controller;
 
 import lombok.AllArgsConstructor;
-import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import parcer.project.mockservice.dao.JobEntity;
-import parcer.project.mockservice.dto.ErrorApiDto;
+import parcer.project.mockservice.domain.seek.job.publisher.JobCrudPublisher;
 import parcer.project.mockservice.dto.JobApiDto;
 import parcer.project.mockservice.dto.JobDto;
-import parcer.project.mockservice.dto.JsonApiResponse;
+import parcer.project.mockservice.entity.JobEntity;
 import parcer.project.mockservice.repository.JobRepository;
 import parcer.project.mockservice.service.CrudService;
 import parcer.project.mockservice.service.MockService;
@@ -19,45 +15,36 @@ import java.util.ArrayList;
 import java.util.InvalidPropertiesFormatException;
 import java.util.List;
 
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
-
 @RestController
 @RequestMapping("/mock/jobs")
 @AllArgsConstructor
 public class MockDataController {
-    private final MockService mockService;
-    private final CrudService crudService;
+    private MockService mockService;
+    private CrudService crudService;
+    private JobRepository repository;
+    private JobCrudPublisher publisher;
 
-    @GetMapping(value = "/")
-    public HttpEntity<JsonApiResponse> getJobs(
+    @GetMapping(path = "/")
+    @ResponseBody
+    public List<JobApiDto> getJobs(
             @RequestParam(value = "filter[date]", required = false) List<String> date,
             @RequestParam(value = "filter[source]", required = false) List<String> source
-    ) {
-        JsonApiResponse response = new JsonApiResponse();
-
-        try {
-            List<JobApiDto> jobs = crudService.getResultByFilteredFields(date, source);
-            response.setData(jobs.stream().map(e -> (Object)e).toList());
-            response.setError(new ErrorApiDto());
-        } catch (InvalidPropertiesFormatException e) {
-            response.setData(new ArrayList<>(0));
-            response.setError(new ErrorApiDto("400", e.getMessage()));
-        }
-
-        response.add(linkTo(methodOn(MockDataController.class).getJobs(date, source)).withSelfRel());
-
-        return new ResponseEntity<>(response, HttpStatus.OK);
+    ) throws InvalidPropertiesFormatException {
+        return crudService.getResultByFilteredFields(date, source);
     }
 
-    @GetMapping(value = "/check", produces = MediaType.APPLICATION_JSON_VALUE)
-    public void checkValue() {
-        JobDto dto = mockService.getFakeData(1, 1).get(0);
-        //TODO remove after testing!
-        crudService.save(dto);
+    @PostMapping(path = "/")
+    @ResponseStatus(HttpStatus.CREATED)
+    @ResponseBody
+    public List<JobEntity> postCreate() {
+        List<JobEntity> collection = new ArrayList<>();
+
+        collection.add(publisher.publishCreateEvent());
+
+        return collection;
     }
 
-    @GetMapping(value = "/fake", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(path = "/fake")
     public List<JobDto> getFakeData(@RequestParam(defaultValue = "10") int jobsCount,
                                     @RequestParam(defaultValue = "7") int pastDays) {
         //TODO replace after testing!

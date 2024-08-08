@@ -7,12 +7,13 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.hateoas.RepresentationModel;
 
+import java.io.Serializable;
 import java.util.List;
 
 @Getter
 @Setter
 @NoArgsConstructor
-public class JsonApiResponse extends RepresentationModel<JsonApiResponse> {
+public class JsonApiResponse<J extends RepresentationModel<JobApiDto>, O> extends RepresentationModel<JsonApiResponse<RepresentationModel<JobApiDto>, O>> implements Serializable {
     private List<Object> data;
     private Object error;
 
