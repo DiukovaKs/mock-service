@@ -1,57 +1,9 @@
 {
-  "type": "object",
-  "required": [
-    "data",
-    "_links"
-  ],
-  "properties": {
-    "data": {
-      "type": "array",
-      "items": {
-        "$ref": "#/$defs/jobs"
-      }
-    },
-    "error": {
-      "type": "object"
-    },
-    "_links": {
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
       "type": "object",
-      "required": [
-        "self"
-      ],
-      "properties": {
-        "self": {
-          "type": "object",
-          "required": [
-            "href"
-          ],
-          "properties": {
-            "href": {
-              "type": "string"
-            }
-          }
-        }
-      }
-    }
-  },
-  "$defs": {
-    "jobs": {
-      "type": "object",
-      "required": [
-        "id",
-        "sourceId",
-        "sourceJobId",
-        "title",
-        "description",
-        "company",
-        "companyId",
-        "location",
-        "workType",
-        "postedAt",
-        "collectedAt",
-        "link",
-        "extra"
-      ],
       "properties": {
         "id": {
           "type": "string"
@@ -74,25 +26,45 @@
         "companyId": {
           "type": "string"
         },
-        "location": {
-          "type": "string"
-        },
-        "workType": {
-          "type": "string"
-        },
-        "postedAt": {
-          "type": "string"
-        },
-        "collectedAt": {
+        "extra": {
           "type": "string"
         },
         "link": {
           "type": "string"
         },
-        "extra": {
+        "collectedAt": {
           "type": "string"
+        },
+        "postedAt": {
+          "type": "string"
+        },
+        "workType": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "links": {
+          "type": "array",
+          "items": {}
         }
-      }
+      },
+      "required": [
+        "id",
+        "sourceId",
+        "sourceJobId",
+        "title",
+        "description",
+        "company",
+        "companyId",
+        "extra",
+        "link",
+        "collectedAt",
+        "postedAt",
+        "workType",
+        "location",
+        "links"
+      ]
     }
-  }
+  ]
 }

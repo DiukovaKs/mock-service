@@ -1,47 +1,9 @@
 {
-  "type": "object",
-  "required": [
-    "data",
-    "_links"
-  ],
-  "properties": {
-    "data": {
-      "type": "array",
-      "items": {
-        "$ref": "#/$defs/sources"
-      }
-    },
-    "error": {
-      "type": "object"
-    },
-    "_links": {
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
       "type": "object",
-      "required": [
-        "self"
-      ],
-      "properties": {
-        "self": {
-          "type": "object",
-          "required": [
-            "href"
-          ],
-          "properties": {
-            "href": {
-              "type": "string"
-            }
-          }
-        }
-      }
-    }
-  },
-
-  "$defs": {
-    "sources": {
-      "type": "object",
-      "required": [
-        "sourceId",
-        "source"
-      ],
       "properties": {
         "sourceId": {
           "type": "string"
@@ -49,7 +11,11 @@
         "source": {
           "type": "string"
         }
-      }
+      },
+      "required": [
+        "sourceId",
+        "source"
+      ]
     }
-  }
+  ]
 }

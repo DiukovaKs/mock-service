@@ -2,7 +2,7 @@ package parcer.project.mockservice.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
-import parcer.project.mockservice.dao.JobEntity;
+import parcer.project.mockservice.entity.JobEntity;
 
 import java.util.List;
 import java.util.UUID;
