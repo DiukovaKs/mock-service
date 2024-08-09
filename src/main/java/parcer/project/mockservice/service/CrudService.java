@@ -1,11 +1,10 @@
 package parcer.project.mockservice.service;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import parcer.project.mockservice.entity.JobEntity;
 import parcer.project.mockservice.dto.JobApiDto;
 import parcer.project.mockservice.dto.JobDto;
+import parcer.project.mockservice.entity.JobEntity;
 import parcer.project.mockservice.mapper.JobMapper;
 import parcer.project.mockservice.repository.JobRepository;
 
@@ -16,10 +15,8 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CrudService {
     private final static String DATE_FORMAT = "\\d{1,2}-\\d{2}-\\d{4}";
-    @Autowired
-    private JobRepository repository;
-    @Autowired
-    private JobMapper mapper;
+    private final JobRepository repository;
+    private final JobMapper mapper;
 
     public List<JobDto> findAll() {
         return mapper.toDto(repository.findAll());

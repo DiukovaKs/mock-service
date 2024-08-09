@@ -1,9 +1,13 @@
 package parcer.project.mockservice.domain.seek.job.event;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.context.ApplicationEvent;
 import parcer.project.mockservice.entity.JobEntity;
 
+@Getter
 public class JobEvent extends ApplicationEvent {
+    @Setter
     private JobEntity job;
     private final String type;
 
@@ -14,18 +18,6 @@ public class JobEvent extends ApplicationEvent {
         super(source);
         this.job = job;
         this.type = type;
-    }
-
-    public JobEntity getJob() {
-        return job;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setJob(JobEntity job) {
-        this.job = job;
     }
 
     public boolean isTypeCreate()

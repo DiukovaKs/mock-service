@@ -1,6 +1,7 @@
 package parcer.project.mockservice.controller;
 
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -10,9 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 
 @RestController
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class IndexController {
-    private Environment env;
+    private final Environment env;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     @ResponseBody

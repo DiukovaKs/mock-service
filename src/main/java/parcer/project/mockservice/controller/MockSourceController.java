@@ -1,6 +1,7 @@
 package parcer.project.mockservice.controller;
 
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,9 +14,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/mock/source")
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class MockSourceController {
-    private MockSourceService mockSourceService;
+    private final MockSourceService mockSourceService;
 
     @GetMapping(value = "", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody

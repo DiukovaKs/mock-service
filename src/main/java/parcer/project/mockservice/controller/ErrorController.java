@@ -3,6 +3,7 @@ package parcer.project.mockservice.controller;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,9 +15,9 @@ import java.util.HashMap;
 import java.util.Objects;
 
 @RestController
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class ErrorController implements org.springframework.boot.web.servlet.error.ErrorController {
-    private Environment env;
+    private final Environment env;
 
     @GetMapping("/error")
     public ResponseEntity<HashMap<String, String>> handleError(HttpServletRequest req, Exception ex) {

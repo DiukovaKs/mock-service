@@ -1,6 +1,7 @@
 package parcer.project.mockservice.controller;
 
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import parcer.project.mockservice.domain.seek.job.publisher.JobCrudPublisher;
@@ -16,11 +17,11 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/mock/jobs")
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class MockDataController {
-    private MockService mockService;
-    private CrudService crudService;
-    private JobCrudPublisher publisher;
+    private final MockService mockService;
+    private final CrudService crudService;
+    private final JobCrudPublisher publisher;
 
     @GetMapping(path = "")
     @ResponseBody
