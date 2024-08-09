@@ -24,6 +24,7 @@ public class FakeSaturationStrategy implements SaturationStrategyInterface {
         job.setPostedAt(faker.date().toString());
         job.setPostedAt(LocalDateTime.now().toString());
         job.setWorkType("");
+        job.setCollectedAt(LocalDateTime.now());
         job.setLink(faker.company().url());
         job.setExtra(faker.job().position());
         job.setSourceId(source);

@@ -7,7 +7,6 @@ import parcer.project.mockservice.domain.seek.job.publisher.JobCrudPublisher;
 import parcer.project.mockservice.dto.JobApiDto;
 import parcer.project.mockservice.dto.JobDto;
 import parcer.project.mockservice.entity.JobEntity;
-import parcer.project.mockservice.repository.JobRepository;
 import parcer.project.mockservice.service.CrudService;
 import parcer.project.mockservice.service.MockService;
 
@@ -21,10 +20,9 @@ import java.util.List;
 public class MockDataController {
     private MockService mockService;
     private CrudService crudService;
-    private JobRepository repository;
     private JobCrudPublisher publisher;
 
-    @GetMapping(path = "/")
+    @GetMapping(path = "")
     @ResponseBody
     public List<JobApiDto> getJobs(
             @RequestParam(value = "filter[date]", required = false) List<String> date,
@@ -33,7 +31,7 @@ public class MockDataController {
         return crudService.getResultByFilteredFields(date, source);
     }
 
-    @PostMapping(path = "/")
+    @PostMapping(path = "")
     @ResponseStatus(HttpStatus.CREATED)
     @ResponseBody
     public List<JobEntity> postCreate() {

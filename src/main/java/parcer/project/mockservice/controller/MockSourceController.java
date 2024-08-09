@@ -17,7 +17,7 @@ import java.util.List;
 public class MockSourceController {
     private MockSourceService mockSourceService;
 
-    @GetMapping(value = "/", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public List<SourceDto> getSources() {
         return mockSourceService.getSources();
