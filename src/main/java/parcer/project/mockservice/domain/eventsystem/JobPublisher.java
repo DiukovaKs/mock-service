@@ -1,25 +1,32 @@
-package parcer.project.mockservice.domain.seek.job.publisher;
+package parcer.project.mockservice.domain.eventsystem;
 
-
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.ApplicationEventPublisherAware;
 import org.springframework.stereotype.Component;
 import parcer.project.mockservice.entity.JobEntity;
-import parcer.project.mockservice.domain.seek.job.event.JobEvent;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Component
 @RequiredArgsConstructor
-public class JobCrudPublisher implements ApplicationEventPublisherAware {
+public class JobPublisher implements ApplicationEventPublisherAware {
     private ApplicationEventPublisher applicationEventPublisher;
 
-    public JobEntity publishCreateEvent() {
-        JobEvent jobEvent = new JobEvent(this, null, JobEvent.CREATE_TYPE);
-        applicationEventPublisher.publishEvent(jobEvent);
+    public List<JobEntity> publishGenerateEvent(int quantity, String source) {
+        List<JobEntity> jobs = new ArrayList<>();
+        for (var i = 0; i < quantity; i++) {
+            JobEntity job = JobEntity.make();
+            JobEvent jobEvent = JobEvent.makeCreate(this, job, source);
 
-        return jobEvent.getJob();
+            applicationEventPublisher.publishEvent(jobEvent);
+
+            jobs.add(job);
+        }
+
+        return jobs;
     }
 
     @Override

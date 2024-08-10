@@ -1,17 +1,18 @@
 package parcer.project.mockservice.controller;
 
-import lombok.AllArgsConstructor;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import parcer.project.mockservice.domain.seek.job.publisher.JobCrudPublisher;
+import parcer.project.mockservice.MockFacade;
 import parcer.project.mockservice.dto.JobApiDto;
 import parcer.project.mockservice.dto.JobDto;
+import parcer.project.mockservice.dto.request.MockCreateRequest;
 import parcer.project.mockservice.entity.JobEntity;
 import parcer.project.mockservice.service.CrudService;
 import parcer.project.mockservice.service.MockService;
 
-import java.util.ArrayList;
+import java.util.Collections;
 import java.util.InvalidPropertiesFormatException;
 import java.util.List;
 
@@ -21,7 +22,7 @@ import java.util.List;
 public class MockDataController {
     private final MockService mockService;
     private final CrudService crudService;
-    private final JobCrudPublisher publisher;
+    private final MockFacade mockFacade;
 
     @GetMapping(path = "")
     @ResponseBody
@@ -35,12 +36,8 @@ public class MockDataController {
     @PostMapping(path = "")
     @ResponseStatus(HttpStatus.CREATED)
     @ResponseBody
-    public List<JobEntity> postCreate() {
-        List<JobEntity> collection = new ArrayList<>();
-
-        collection.add(publisher.publishCreateEvent());
-
-        return collection;
+    public List<JobEntity> create(@Valid @RequestBody MockCreateRequest mockCreateRequest) {
+        return mockFacade.generate(mockCreateRequest.getQuantity(), mockCreateRequest.getProject());
     }
 
     @GetMapping(path = "/fake")

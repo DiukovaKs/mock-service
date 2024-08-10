@@ -1,4 +1,4 @@
-package parcer.project.mockservice.domain.seek.job.saturation;
+package parcer.project.mockservice.domain.seek.saturation;
 
 import com.github.javafaker.Faker;
 import org.springframework.stereotype.Component;
