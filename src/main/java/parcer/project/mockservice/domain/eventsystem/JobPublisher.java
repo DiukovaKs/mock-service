@@ -16,7 +16,7 @@ public class JobPublisher implements ApplicationEventPublisherAware {
     private ApplicationEventPublisher applicationEventPublisher;
 
     public List<JobEntity> publishGenerateEvent(int quantity, String source) {
-        List<JobEntity> jobs = new ArrayList<>();
+        List<JobEntity> jobs = new ArrayList<>(quantity);
         for (var i = 0; i < quantity; i++) {
             JobEntity job = JobEntity.make();
             JobEvent jobEvent = JobEvent.makeCreate(this, job, source);
