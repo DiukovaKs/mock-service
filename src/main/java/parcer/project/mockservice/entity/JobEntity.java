@@ -34,6 +34,5 @@ public class JobEntity {
     public static JobEntity make() {
         return new JobEntity();
     }
-
 }
 

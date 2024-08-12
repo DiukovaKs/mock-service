@@ -2,6 +2,7 @@ package parcer.project.mockservice.domain.seek.saturation;
 
 import com.github.javafaker.Faker;
 import org.springframework.stereotype.Component;
+import parcer.project.mockservice.domain.seek.WorkTypeEnum;
 import parcer.project.mockservice.entity.JobEntity;
 
 import java.time.LocalDateTime;
@@ -26,7 +27,7 @@ public class FakeSaturationStrategy implements SaturationStrategyInterface {
         job.setLocation(faker.address().fullAddress());
         job.setPostedAt(faker.date().toString());
         job.setPostedAt(LocalDateTime.now().toString());
-        job.setWorkType(list.get(randomIndex));
+        job.setWorkType(WorkTypeEnum.getRandomWorkType().name());
         job.setCollectedAt(LocalDateTime.now());
         job.setLink(faker.company().url());
         job.setExtra(faker.job().position());
