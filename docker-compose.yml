@@ -1,7 +1,6 @@
-version: '3.8'
 services:
   mongodb:
-    image: mongo:latest
+    image: mongo:7.0.11
     container_name: "mongoDB"
     environment:
       MONGO_INITDB_ROOT_USERNAME: "admin"
@@ -11,3 +10,18 @@ services:
       - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
     ports:
       - "27017:27017"
+    networks:
+      - mock-service-network
+
+  app:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+    depends_on:
+      - mongodb
+    networks:
+      - mock-service-network
+
+networks:
+  mock-service-network:

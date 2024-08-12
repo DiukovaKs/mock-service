@@ -3,7 +3,7 @@ package parcer.project.mockservice.mapper;
 import org.mapstruct.InjectionStrategy;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingConstants;
-import parcer.project.mockservice.dao.JobEntity;
+import parcer.project.mockservice.entity.JobEntity;
 import parcer.project.mockservice.dto.JobApiDto;
 import parcer.project.mockservice.dto.JobDto;
 
