@@ -1,4 +1,4 @@
-package parcer.project.mockservice.dao;
+package parcer.project.mockservice.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -9,9 +9,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+@Setter
 @Document(collection = "jobs")
 @Getter
-@Setter
 public class JobEntity {
     @Id
     private UUID id;
@@ -30,4 +30,9 @@ public class JobEntity {
     private LocalDateTime collectedAt;
     private String link;
     private String extra;
+
+    public static JobEntity make() {
+        return new JobEntity();
+    }
 }
+

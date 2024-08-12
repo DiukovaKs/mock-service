@@ -2,9 +2,9 @@ package parcer.project.mockservice.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import parcer.project.mockservice.dao.JobEntity;
 import parcer.project.mockservice.dto.JobApiDto;
 import parcer.project.mockservice.dto.JobDto;
+import parcer.project.mockservice.entity.JobEntity;
 import parcer.project.mockservice.mapper.JobMapper;
 import parcer.project.mockservice.repository.JobRepository;
 
@@ -15,7 +15,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CrudService {
     private final static String DATE_FORMAT = "\\d{1,2}-\\d{2}-\\d{4}";
-
     private final JobRepository repository;
     private final JobMapper mapper;
 
