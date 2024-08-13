@@ -1,15 +1,19 @@
 package parcer.project.mockservice;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
-import static io.restassured.RestAssured.get;
+import org.testcontainers.junit.jupiter.Testcontainers;
 
+import static io.restassured.RestAssured.get;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
-@AutoConfigureMockMvc
-class MockServiceApplicationTests {
+@Testcontainers
+public class MockServiceApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
 
     @Test
     public void testJobsJsonSchema() {
