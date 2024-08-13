@@ -13,4 +13,6 @@ public interface JobRepository extends MongoRepository<JobEntity, UUID> {
     List<JobEntity> findJobEntitiesByPostedAtIn(List<String> collectedAt);
 
     List<JobEntity> findJobEntitiesByPostedAtInAndSourceIdIn(List<String> collectedAt, List<String> sources);
+
+    List<JobEntity> findBy();
 }
