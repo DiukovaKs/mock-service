@@ -10,9 +10,9 @@ import java.util.UUID;
 @Repository
 public interface JobRepository extends MongoRepository<JobEntity, UUID> {
 
-    List<JobEntity> findJobEntitiesByPostedAtIn(List<String> collectedAt);
+    List<JobEntity> findJobEntitiesByPostedAtIn(List<String> postedAt);
 
-    List<JobEntity> findJobEntitiesByPostedAtInAndSourceIdIn(List<String> collectedAt, List<String> sources);
+    List<JobEntity> findJobEntitiesByPostedAtInAndSourceIdIn(List<String> postedAt, List<String> sources);
 
     List<JobEntity> findBy();
 }
